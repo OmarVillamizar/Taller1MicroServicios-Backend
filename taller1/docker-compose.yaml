@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  taller1-app:
+    image: taller2-backend # Usa la imagen que ya construiste
+    container_name: taller2-backend
+    build:
+      context: .                # Ruta donde está tu Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"             # Mapeo de puerto (host:contenedor)
+    restart: always             # Reinicia si falla

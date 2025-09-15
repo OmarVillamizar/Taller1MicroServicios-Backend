@@ -1,0 +1,23 @@
+# Ignorar Maven build outputs
+target/
+
+# Archivos de IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
+
+# Otros innecesarios
+*.class
